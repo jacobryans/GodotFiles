@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="PackedScene" subresource_count="22" version="2.1" version_name="Godot Engine v2.1.4.stable.official">
+	<ext_resource path="res://Player.xml" type="PackedScene" index="0"></ext_resource>
+	<ext_resource path="res://tilesets/Tileset-Templates-master/Tileset-Templates-master/template-assets/sprites/slim_path_wall_left.png" type="Texture" index="18"></ext_resource>
+	<ext_resource path="res://tilesets/Tileset-Templates-master/Tileset-Templates-master/template-assets/sprites/slim_path_down.png" type="Texture" index="16"></ext_resource>
+	<ext_resource path="res://tilesets/Tileset-Templates-master/Tileset-Templates-master/template-assets/sprites/slim_path_connection.png" type="Texture" index="20"></ext_resource>
+	<ext_resource path="res://tilesets/Tileset-Templates-master/Tileset-Templates-master/template-assets/sprites/slim_path_left.png" type="Texture" index="15"></ext_resource>
+	<ext_resource path="res://tilesets/Tileset-Templates-master/Tileset-Templates-master/template-assets/sprites/slim_path_wall_center.png" type="Texture" index="19"></ext_resource>
+	<ext_resource path="res://tilesets/Tileset-Templates-master/Tileset-Templates-master/template-assets/sprites/slim_path_wall_right.png" type="Texture" index="17"></ext_resource>
+	<ext_resource path="res://tilesets/Tileset-Templates-master/Tileset-Templates-master/template-assets/sprites/wall_right.png" type="Texture" index="6"></ext_resource>
+	<ext_resource path="res://tilesets/Tileset-Templates-master/Tileset-Templates-master/template-assets/sprites/corner_bot_right.png" type="Texture" index="2"></ext_resource>
+	<ext_resource path="res://tilesets/Tileset-Templates-master/Tileset-Templates-master/template-assets/sprites/corner_bot_left.png" type="Texture" index="1"></ext_resource>
+	<ext_resource path="res://tilesets/Tileset-Templates-master/Tileset-Templates-master/template-assets/sprites/corner_top_right.png" type="Texture" index="4"></ext_resource>
+	<ext_resource path="res://tilesets/Tileset-Templates-master/Tileset-Templates-master/template-assets/sprites/corner_top_left.png" type="Texture" index="3"></ext_resource>
+	<ext_resource path="res://tilesets/Tileset-Templates-master/Tileset-Templates-master/template-assets/sprites/wall_bot.png" type="Texture" index="7"></ext_resource>
+	<ext_resource path="res://tilesets/Tileset-Templates-master/Tileset-Templates-master/template-assets/sprites/wall_top.png" type="Texture" index="8"></ext_resource>
+	<ext_resource path="res://tilesets/Tileset-Templates-master/Tileset-Templates-master/template-assets/sprites/wall_left.png" type="Texture" index="5"></ext_resource>
+	<ext_resource path="res://tilesets/Tileset-Templates-master/Tileset-Templates-master/template-assets/sprites/small_corner_top_right.png" type="Texture" index="11"></ext_resource>
+	<ext_resource path="res://tilesets/Tileset-Templates-master/Tileset-Templates-master/template-assets/sprites/small_corner_bot_left.png" type="Texture" index="12"></ext_resource>
+	<ext_resource path="res://tilesets/Tileset-Templates-master/Tileset-Templates-master/template-assets/sprites/slim_path_crossing.png" type="Texture" index="14"></ext_resource>
+	<ext_resource path="res://tilesets/Tileset-Templates-master/Tileset-Templates-master/template-assets/sprites/small_corner_bot_right.png" type="Texture" index="10"></ext_resource>
+	<ext_resource path="res://tilesets/Tileset-Templates-master/Tileset-Templates-master/template-assets/sprites/slim_path_top.png" type="Texture" index="13"></ext_resource>
+	<ext_resource path="res://tilesets/Tileset-Templates-master/Tileset-Templates-master/template-assets/sprites/small_corner_top_left.png" type="Texture" index="9"></ext_resource>
+	<main_resource>
+		<dictionary name="_bundled" shared="false">
+			<string> "conn_count" </string>
+			<int> 0 </int>
+			<string> "conns" </string>
+			<int_array  len="0"> 				 </int_array>
+			<string> "editable_instances" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "names" </string>
+			<string_array  len="49">
+				<string> "World" </string>
+				<string> "transform/pos" </string>
+				<string> "Node2D" </string>
+				<string> "Player" </string>
+				<string> "outsidewall" </string>
+				<string> "visibility/behind_parent" </string>
+				<string> "Sprite" </string>
+				<string> "corner_bot_left" </string>
+				<string> "texture" </string>
+				<string> "corner_bot_right" </string>
+				<string> "corner_top_left" </string>
+				<string> "corner_top_right" </string>
+				<string> "transform/scale" </string>
+				<string> "wall_left" </string>
+				<string> "wall_right" </string>
+				<string> "wall_bot" </string>
+				<string> "wall_bot 2" </string>
+				<string> "wall_bot 3" </string>
+				<string> "wall_bot 4" </string>
+				<string> "wall_bot 5" </string>
+				<string> "wall_bot 6" </string>
+				<string> "wall_left 2" </string>
+				<string> "wall_left 3" </string>
+				<string> "wall_right 2" </string>
+				<string> "wall_right 3" </string>
+				<string> "wall_top" </string>
+				<string> "wall_top 2" </string>
+				<string> "wall_top 3" </string>
+				<string> "wall_top 4" </string>
+				<string> "wall_top 5" </string>
+				<string> "wall_top 6" </string>
+				<string> "inside" </string>
+				<string> "small_corner_bot_right" </string>
+				<string> "small_corner_top_right" </string>
+				<string> "small_corner_bot_left" </string>
+				<string> "slim_path_top" </string>
+				<string> "slim_path_top 2" </string>
+				<string> "slim_path_crossing" </string>
+				<string> "slim_path_left" </string>
+				<string> "slim_path_down" </string>
+				<string> "slim_path_left 2" </string>
+				<string> "slim_path_down 2" </string>
+				<string> "slim_path_wall_right" </string>
+				<string> "slim_path_wall_left" </string>
+				<string> "slim_path_wall_center" </string>
+				<string> "slim_path_wall_center 2" </string>
+				<string> "slim_path_connection" </string>
+				<string> "transform/rot" </string>
+				<string> "slim_path_connection 2" </string>
+			</string_array>
+			<string> "node_count" </string>
+			<int> 42 </int>
+			<string> "node_paths" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "nodes" </string>
+			<int_array  len="500"> 				-1, -1, 2, 0, -1, 1, 1, 0, 0, 0, 0, 2147483647, 3, 1, 1, 1, 2, 0, 0, 0, 6, 4, -1, 2, 5, 3, 1, 4, 0, 2, 0, 6, 7, -1, 2, 1, 5, 8, 6, 0, 2, 0, 6, 9, -1, 2, 1, 7, 8, 8, 0, 2, 0, 6, 10, -1, 2, 1, 9, 8, 10, 0, 2, 0, 6, 11, -1, 3, 1, 11, 12, 12, 8, 13, 0, 2, 0, 6, 13, -1, 2, 1, 14, 8, 15, 0, 2, 0, 6, 14, -1, 2, 1, 16, 8, 17, 0, 2, 0, 6, 15, -1, 3, 1, 18, 12, 19, 8, 20, 0, 2, 0, 6, 16, -1, 2, 1, 21, 8, 20, 0, 2, 0, 6, 17, -1, 2, 1, 22, 8, 20, 0, 2, 0, 6, 18, -1, 2, 1, 23, 8, 20, 0, 2, 0, 6, 19, -1, 2, 1, 24, 8, 20, 0, 2, 0, 6, 20, -1, 3, 1, 25, 12, 26, 8, 20, 0, 2, 0, 6, 21, -1, 3, 1, 27, 12, 28, 8, 15, 0, 2, 0, 6, 22, -1, 2, 1, 29, 8, 15, 0, 2, 0, 6, 23, -1, 2, 1, 30, 8, 17, 0, 2, 0, 6, 24, -1, 3, 1, 31, 12, 32, 8, 17, 0, 2, 0, 6, 25, -1, 2, 1, 33, 8, 34, 0, 2, 0, 6, 26, -1, 2, 1, 35, 8, 34, 0, 2, 0, 6, 27, -1, 2, 1, 36, 8, 34, 0, 2, 0, 6, 28, -1, 2, 1, 37, 8, 34, 0, 2, 0, 6, 29, -1, 2, 1, 38, 8, 34, 0, 2, 0, 6, 30, -1, 3, 1, 39, 12, 40, 8, 34, 0, 0, 0, 6, 31, -1, 3, 5, 3, 1, 41, 8, 42, 0, 25, 0, 6, 32, -1, 2, 1, 43, 8, 44, 0, 25, 0, 6, 33, -1, 2, 1, 45, 8, 46, 0, 25, 0, 6, 34, -1, 2, 1, 47, 8, 48, 0, 25, 0, 6, 35, -1, 3, 1, 49, 12, 50, 8, 51, 0, 25, 0, 6, 36, -1, 3, 1, 52, 12, 53, 8, 51, 0, 25, 0, 6, 37, -1, 3, 1, 54, 12, 55, 8, 56, 0, 25, 0, 6, 38, -1, 3, 1, 57, 12, 58, 8, 59, 0, 25, 0, 6, 39, -1, 3, 1, 60, 12, 61, 8, 62, 0, 25, 0, 6, 40, -1, 3, 1, 63, 12, 64, 8, 59, 0, 25, 0, 6, 41, -1, 3, 1, 65, 12, 66, 8, 62, 0, 25, 0, 6, 42, -1, 3, 1, 67, 12, 68, 8, 69, 0, 25, 0, 6, 43, -1, 3, 1, 70, 12, 71, 8, 72, 0, 25, 0, 6, 44, -1, 3, 1, 73, 12, 74, 8, 75, 0, 25, 0, 6, 45, -1, 3, 1, 76, 12, 77, 8, 75, 0, 25, 0, 6, 46, -1, 4, 1, 78, 47, 79, 12, 80, 8, 81, 0, 25, 0, 6, 48, -1, 3, 1, 82, 12, 83, 8, 81, 0 </int_array>
+			<string> "variants" </string>
+			<array  len="84" shared="false">
+				<vector2> 32, -16 </vector2>
+				<resource  external="0">  </resource>
+				<vector2> 6, 6 </vector2>
+				<bool> True </bool>
+				<vector2> 438, -232 </vector2>
+				<vector2> -888, 472 </vector2>
+				<resource  external="1">  </resource>
+				<vector2> 8, 464 </vector2>
+				<resource  external="2">  </resource>
+				<vector2> -888, 0 </vector2>
+				<resource  external="3">  </resource>
+				<vector2> 5, 2 </vector2>
+				<vector2> 1.04688, 0.9375 </vector2>
+				<resource  external="4">  </resource>
+				<vector2> -888, 348 </vector2>
+				<resource  external="5">  </resource>
+				<vector2> 8, 342 </vector2>
+				<resource  external="6">  </resource>
+				<vector2> -120, 465 </vector2>
+				<vector2> 1, 0.984375 </vector2>
+				<resource  external="7">  </resource>
+				<vector2> -760, 470 </vector2>
+				<vector2> -632, 470 </vector2>
+				<vector2> -506, 470 </vector2>
+				<vector2> -380, 470 </vector2>
+				<vector2> -248, 468 </vector2>
+				<vector2> 1.0625, 1 </vector2>
+				<vector2> -888, 222 </vector2>
+				<vector2> 1.03125, 1 </vector2>
+				<vector2> -888, 126 </vector2>
+				<vector2> 6, 216 </vector2>
+				<vector2> 4, 112 </vector2>
+				<vector2> 1.01563, 0.8125 </vector2>
+				<vector2> -762, 0 </vector2>
+				<resource  external="8">  </resource>
+				<vector2> -634, 0 </vector2>
+				<vector2> -510, 2 </vector2>
+				<vector2> -388, 4 </vector2>
+				<vector2> -264, 4 </vector2>
+				<vector2> -130, 6 </vector2>
+				<vector2> 1.09375, 1 </vector2>
+				<vector2> -322, -106 </vector2>
+				<resource  external="9">  </resource>
+				<vector2> 640, 214 </vector2>
+				<resource  external="10">  </resource>
+				<vector2> 642, 6 </vector2>
+				<resource  external="11">  </resource>
+				<vector2> -4, 222 </vector2>
+				<resource  external="12">  </resource>
+				<vector2> 124, 110 </vector2>
+				<vector2> 1, 1.3125 </vector2>
+				<resource  external="13">  </resource>
+				<vector2> 516, 106 </vector2>
+				<vector2> 1, 1.28125 </vector2>
+				<vector2> 322, 108.5 </vector2>
+				<vector2> 1, 1.25781 </vector2>
+				<resource  external="14">  </resource>
+				<vector2> 322, 234 </vector2>
+				<vector2> 1, 0.8125 </vector2>
+				<resource  external="15">  </resource>
+				<vector2> 206, 110.538 </vector2>
+				<vector2> 1, 1.32946 </vector2>
+				<resource  external="16">  </resource>
+				<vector2> 320, -18 </vector2>
+				<vector2> 1, 0.875 </vector2>
+				<vector2> 407, 108 </vector2>
+				<vector2> 0.703125, 1.29688 </vector2>
+				<vector2> 484, 238.5 </vector2>
+				<vector2> 1.53125, 0.820313 </vector2>
+				<resource  external="17">  </resource>
+				<vector2> 157, 242 </vector2>
+				<vector2> 1.57813, 0.78125 </vector2>
+				<resource  external="18">  </resource>
+				<vector2> 158, -16 </vector2>
+				<vector2> 1.46875, 0.71875 </vector2>
+				<resource  external="19">  </resource>
+				<vector2> 483, -18 </vector2>
+				<vector2> 1.64063, 0.6875 </vector2>
+				<vector2> -4, 108 </vector2>
+				<real> 180 </real>
+				<vector2> 1, 1.21875 </vector2>
+				<resource  external="20">  </resource>
+				<vector2> 640, 101 </vector2>
+				<vector2> 1, 1.17188 </vector2>
+			</array>
+			<string> "version" </string>
+			<int> 2 </int>
+		</dictionary>
+
+	</main_resource>
+</resource_file>
